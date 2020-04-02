@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5750BE57B0C4FC41F956247B /* Pods_Fitness360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7B445DE9947DF014EAF760 /* Pods_Fitness360.framework */; };
+		87788EE205D14B69B10005DE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 851AE524BC454881A80A7660 /* awsconfiguration.json */; };
 		ED9EC31C2435AB2500612CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC31B2435AB2500612CE2 /* AppDelegate.swift */; };
 		ED9EC31E2435AB2500612CE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC31D2435AB2500612CE2 /* SceneDelegate.swift */; };
 		ED9EC3202435AB2500612CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC31F2435AB2500612CE2 /* ViewController.swift */; };
 		ED9EC3232435AB2500612CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9EC3212435AB2500612CE2 /* Main.storyboard */; };
 		ED9EC3252435AB2600612CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9EC3242435AB2600612CE2 /* Assets.xcassets */; };
 		ED9EC3282435AB2600612CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9EC3262435AB2600612CE2 /* LaunchScreen.storyboard */; };
+		ED9EC3342435AC7700612CE2 /* Task+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC32F2435AC7600612CE2 /* Task+Schema.swift */; };
+		ED9EC3352435AC7700612CE2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC3302435AC7600612CE2 /* Users.swift */; };
+		ED9EC3362435AC7700612CE2 /* Users+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC3312435AC7600612CE2 /* Users+Schema.swift */; };
+		ED9EC3372435AC7700612CE2 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC3322435AC7600612CE2 /* AmplifyModels.swift */; };
+		ED9EC3382435AC7700612CE2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EC3332435AC7700612CE2 /* Task.swift */; };
+		FD80A56416B0464883B51A80 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B37CC8FD634D454F9FF16EF3 /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20DD4255A5264416AA21FF92 /* amplifyxc.config */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyxc.config; path = ./amplifyxc.config; sourceTree = "<group>"; };
+		33BDF1771C50FA29384F454D /* Pods-Fitness360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness360.debug.xcconfig"; path = "Target Support Files/Pods-Fitness360/Pods-Fitness360.debug.xcconfig"; sourceTree = "<group>"; };
+		57D596D70D014B719D40D793 /* amplify */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = amplify; path = ./amplify; sourceTree = "<group>"; };
+		851AE524BC454881A80A7660 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = awsconfiguration.json; path = ./awsconfiguration.json; sourceTree = "<group>"; };
+		8B7815EB71404B56F6885DCC /* Pods-Fitness360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness360.release.xcconfig"; path = "Target Support Files/Pods-Fitness360/Pods-Fitness360.release.xcconfig"; sourceTree = "<group>"; };
+		B37CC8FD634D454F9FF16EF3 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyconfiguration.json; path = ./amplifyconfiguration.json; sourceTree = "<group>"; };
+		BC7B445DE9947DF014EAF760 /* Pods_Fitness360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9EC3182435AB2500612CE2 /* Fitness360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9EC31B2435AB2500612CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED9EC31D2435AB2500612CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		ED9EC3242435AB2600612CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9EC3272435AB2600612CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9EC3292435AB2600612CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9EC32F2435AC7600612CE2 /* Task+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+Schema.swift"; path = "amplify/generated/models/Task+Schema.swift"; sourceTree = "<group>"; };
+		ED9EC3302435AC7600612CE2 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Users.swift; path = amplify/generated/models/Users.swift; sourceTree = "<group>"; };
+		ED9EC3312435AC7600612CE2 /* Users+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Users+Schema.swift"; path = "amplify/generated/models/Users+Schema.swift"; sourceTree = "<group>"; };
+		ED9EC3322435AC7600612CE2 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		ED9EC3332435AC7700612CE2 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = amplify/generated/models/Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5750BE57B0C4FC41F956247B /* Pods_Fitness360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292A5DE8DE80AC52C4A9303C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7B445DE9947DF014EAF760 /* Pods_Fitness360.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DDC941CDDE77789674981BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33BDF1771C50FA29384F454D /* Pods-Fitness360.debug.xcconfig */,
+				8B7815EB71404B56F6885DCC /* Pods-Fitness360.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ED9EC30F2435AB2500612CE2 = {
 			isa = PBXGroup;
 			children = (
+				ED9EC3322435AC7600612CE2 /* AmplifyModels.swift */,
+				ED9EC3332435AC7700612CE2 /* Task.swift */,
+				ED9EC32F2435AC7600612CE2 /* Task+Schema.swift */,
+				ED9EC3302435AC7600612CE2 /* Users.swift */,
+				ED9EC3312435AC7600612CE2 /* Users+Schema.swift */,
 				ED9EC31A2435AB2500612CE2 /* Fitness360 */,
 				ED9EC3192435AB2500612CE2 /* Products */,
+				2DDC941CDDE77789674981BE /* Pods */,
+				292A5DE8DE80AC52C4A9303C /* Frameworks */,
+				20DD4255A5264416AA21FF92 /* amplifyxc.config */,
+				851AE524BC454881A80A7660 /* awsconfiguration.json */,
+				B37CC8FD634D454F9FF16EF3 /* amplifyconfiguration.json */,
+				57D596D70D014B719D40D793 /* amplify */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,23 @@
 		ED9EC31A2435AB2500612CE2 /* Fitness360 */ = {
 			isa = PBXGroup;
 			children = (
+				ED9EC3392435AD1D00612CE2 /* ViewControllers */,
 				ED9EC31B2435AB2500612CE2 /* AppDelegate.swift */,
 				ED9EC31D2435AB2500612CE2 /* SceneDelegate.swift */,
-				ED9EC31F2435AB2500612CE2 /* ViewController.swift */,
 				ED9EC3212435AB2500612CE2 /* Main.storyboard */,
 				ED9EC3242435AB2600612CE2 /* Assets.xcassets */,
 				ED9EC3262435AB2600612CE2 /* LaunchScreen.storyboard */,
 				ED9EC3292435AB2600612CE2 /* Info.plist */,
 			);
 			path = Fitness360;
+			sourceTree = "<group>";
+		};
+		ED9EC3392435AD1D00612CE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED9EC31F2435AB2500612CE2 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED9EC32C2435AB2600612CE2 /* Build configuration list for PBXNativeTarget "Fitness360" */;
 			buildPhases = (
+				E0A3C8F0069290E48F9E30C3 /* [CP] Check Pods Manifest.lock */,
 				ED9EC3142435AB2500612CE2 /* Sources */,
 				ED9EC3152435AB2500612CE2 /* Frameworks */,
 				ED9EC3162435AB2500612CE2 /* Resources */,
+				27A59BA65460AA254798436B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +187,68 @@
 				ED9EC3282435AB2600612CE2 /* LaunchScreen.storyboard in Resources */,
 				ED9EC3252435AB2600612CE2 /* Assets.xcassets in Resources */,
 				ED9EC3232435AB2500612CE2 /* Main.storyboard in Resources */,
+				87788EE205D14B69B10005DE /* awsconfiguration.json in Resources */,
+				FD80A56416B0464883B51A80 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A59BA65460AA254798436B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness360/Pods-Fitness360-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness360/Pods-Fitness360-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitness360/Pods-Fitness360-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A3C8F0069290E48F9E30C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness360-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED9EC3142435AB2500612CE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9EC3382435AC7700612CE2 /* Task.swift in Sources */,
 				ED9EC3202435AB2500612CE2 /* ViewController.swift in Sources */,
 				ED9EC31C2435AB2500612CE2 /* AppDelegate.swift in Sources */,
+				ED9EC3352435AC7700612CE2 /* Users.swift in Sources */,
 				ED9EC31E2435AB2500612CE2 /* SceneDelegate.swift in Sources */,
+				ED9EC3342435AC7700612CE2 /* Task+Schema.swift in Sources */,
+				ED9EC3362435AC7700612CE2 /* Users+Schema.swift in Sources */,
+				ED9EC3372435AC7700612CE2 /* AmplifyModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		ED9EC32D2435AB2600612CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BDF1771C50FA29384F454D /* Pods-Fitness360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +408,7 @@
 		};
 		ED9EC32E2435AB2600612CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7815EB71404B56F6885DCC /* Pods-Fitness360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

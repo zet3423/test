@@ -1,0 +1,20 @@
+{
+    "devenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fitness360-devenv-11051-authRole",
+            "UnauthRoleArn": "arn:aws:iam::206795110551:role/amplify-fitness360-devenv-11051-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::206795110551:role/amplify-fitness360-devenv-11051-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-fitness360-devenv-11051-deployment",
+            "UnauthRoleName": "amplify-fitness360-devenv-11051-unauthRole",
+            "StackName": "amplify-fitness360-devenv-11051",
+            "StackId": "arn:aws:cloudformation:us-east-1:206795110551:stack/amplify-fitness360-devenv-11051/5383fe10-74a0-11ea-8a8d-12709ad3d671",
+            "AmplifyAppId": "d1e1k5pmbp1gyi"
+        },
+        "categories": {
+            "auth": {
+                "fitness360211633d4": {}
+            }
+        }
+    }
+}
