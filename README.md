@@ -30,4 +30,4 @@ Follow these steps to link it:
 
 
 
-Note: Work on Fitness360.xcworkspace, not Fitness360.xcodeproj
+Note: Work on Fitness360.xcworkspace, not Fitness360.xcodeproj.
