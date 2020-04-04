@@ -5,7 +5,7 @@
 IMPORTANT! YOUR BUILD WILL FAIL IF YOU DO NOT LINK YOUR PROJECT TO AWS BACKEND!
 
 
-Follow these steps to link it:
+Follow these steps to link it:.
 
 
 1. Install Node.JS -> https://nodejs.org/en/download/
